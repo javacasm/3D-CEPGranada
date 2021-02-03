@@ -68,3 +68,12 @@ Se hablará del manejo de impresoras 3D, viendo su estructura y cómo manejarlas
 
 [Guía de inicio rápido](https://3dmakers.academy/docs/00-3DMA-Guia-del-instructor-v02.pdf)
 
+## Fechas
+
+Fecha |	Horario
+--- |---
+08/04/2021 |	17:00 -	19:00
+15/04/2021 |	17:00 -	19:00
+22/04/2021 |	17:00 -	19:00
+29/04/2021 |	17:00 -	19:00
+
