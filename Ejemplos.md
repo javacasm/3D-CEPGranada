@@ -1,0 +1,1 @@
+[Escritura cuneiforme](https://cuadernosdeherodoto.com/2021/03/16/sellos-cilindricos-sumerios-y-escritura-cuneiforme-para-trabajar-mesopotamia/)
