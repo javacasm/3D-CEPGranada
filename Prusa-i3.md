@@ -4,11 +4,57 @@
 
 ![Prusa i3](./images/i3-createc3D.jpg)
 
+Vamos a ver los procesos más usuales que solemos hacer con nuestra impresora Prusa i3
+
+
 ## Calibración
 
+La calibración es el proceso por el conseguimos que la boquilla del extrusor está nivelada con la base, consiguiendo que mantenga la misma distancia con esta en todos los puntos.
+
+Para comprobarlo hacemos lo siguiente:
+
+* Llevamos la impresora a su zona de reposo (Home) desde el menú Preparar-> Llevar al origen (Autohome). 
+* El extrusor ser irá a la esquina delantera izquierda de la base.
+* Comprobamos que la boquilla está pegada a la base pero sin presionarla. Se suele decir que debe caber un papel en medio de las dos si holgura, pero que tampoco esté muy suelto.
+
+![Nivelando Eje Z](./images/NivelandoZ_1.png)
+
+* Ahora liberamos los motores con la opción Preparar -> Apagar Motores y movemos el extrusor y la base para comprobar que la nivelación es igual en las 4 esquinas.
+* Si vemos que necesitamos mover toda la base ajustaremos el tornillo que tenemos a la izquiera y que presiona el final de interruptor (final de carrera). Girando el tornillo en sentido horario bajamos la boquilla
+
+![Tornillo calibración](./images/Calibracion.png)
+
+![Ajustando la nivelación del eje Z](./images/NivelandoZ_2.png)
+
+[![Vídeo: Calibración eje Z de una impresora Prusa i3](https://img.youtube.com/vi/CARIvKaBPZI/0.jpg)](https://youtu.be/CARIvKaBPZI)
+
+[Vídeo: Calibración eje Z de una impresora Prusa i3](https://youtu.be/CARIvKaBPZI)
+
+* Sí vemos que algunas de las esquinas ajustan mejor que otras podemos ajustarlas individualmente.
+* Un caso especial es cuando vemos que es el eje X, donde está el extrusor el que está inclinado. Esto ocurre por el uso o por un golpe o por diferencias entre los motores del eje Z. En este caso, con la impresora apagada, podemos hacer girar los motores del eje z manualmente.
+
+[![Vídeo: Ajuste de la nivelación del Eje X de una impresora 3D](https://img.youtube.com/vi/WTcrb49kiZE/0.jpg)](https://youtu.be/WTcrb49kiZE)
+
+[Vídeo: Ajuste de la nivelación del Eje X de una impresora 3D](https://youtu.be/WTcrb49kiZE)
 
 
 ## Menús de la impresora
+
+Vamos a ver las opciones del menú más normales de las impresoras del tipo Prusa i3 (basadas en el firmware más usual Marlin)
+
+Tenemos los siguientes menús:
+* Preparar: donde están las opciones para usar antes de imprimir
+    * Precalentar
+    * Movimientos
+    * Ir al origen o AutoHome
+    * Apagar motores
+* Control: configuración de la impresora
+* Menu SD, para seleccionar lo que queremos imprimir
+
+[![Vídeo: Menú de las impresoras Prusa i3 (marlin)](https://img.youtube.com/vi/0hkw0U7VBW0/0.jpg)](https://youtu.be/0hkw0U7VBW0)
+
+[Vídeo: Menú de las impresoras Prusa i3 (marlin)](https://youtu.be/0hkw0U7VBW0)
+
 
 ## Configuración de Ultimaker Cura para Prusa i3
 
@@ -28,8 +74,40 @@
 
 [Vídeo: Configuración del laminador Ultimaker Cura para impresora Prusa i3](https://youtu.be/_EcSV2h06xU)
 
+## Imprimiendo
+
+Ya tenemos todo listo para imprimir, sólo tenemos que:
+
+* Cargamos/importamos el modelo (fichero STL) que queremos imprimir
+* Ajustamos tamaño/orientación
+* Configuramos la impresión con nuestro laminador según necesitemos:
+        * Modelo de impresora correcto
+        * Tipo de filamento 
+        * Soporte 
+        * Adherencia a la base
+        * % de relleno
+        * Altura de capa.
+* Laminamos
+* Exportamos el fichero gcode a la tarjeta SD
+* Ponemos la tarjeta SD en la impresora
+* Desde el menú Tarjeta SD seleccionamos el fichero a imprimir
+
+[![Vídeo: Primera impresión 3D](https://img.youtube.com/vi/Y-zoJGRWiu8/0.jpg)](https://youtu.be/Y-zoJGRWiu8)
+
+[Vídeo: Primera impresión 3D](https://youtu.be/Y-zoJGRWiu8)
+
+Durante el proceso de impresión podemos modificar algunos parámetros y también podemos pausarlo o detenerlo definitivamente:
+
+[![Vídeo: Opciones de menú  durante la impresión (Prusa i3 Marlin)](https://img.youtube.com/vi/RRnPeZw8GHQ/0.jpg)](https://youtu.be/RRnPeZw8GHQ)
+
+[Vídeo: Opciones de menú  durante la impresión (Prusa i3 Marlin)](https://youtu.be/RRnPeZw8GHQ)
 
 
+Si todo va bien, la pieza se irá formando
+
+[![Vídeo: Imprimiendo](https://img.youtube.com/vi/oqyA0dr9AOY/0.jpg)](https://youtu.be/oqyA0dr9AOY)
+
+![Cubo de calibración](./images/Cubo3D.jpg)
 
 ## Cambio de filamento
 
