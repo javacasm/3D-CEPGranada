@@ -1,0 +1,1 @@
+Mientras montamos la impresora la estructura debemos de dejar los tornillos un poquito suelto hasta que esté todo montado y luego damos un apretón general si lo apretamos desde el principio podemos dar lugar a malas geometría

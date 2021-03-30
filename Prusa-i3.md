@@ -126,8 +126,9 @@ Si todo va bien, la pieza se irá formando
 
 ## Varios
 
-### Problema de atascos
+### Atascos
 
+Normalmente un atasco se produce porque se queda un resto de filamento en la parte más fría del interior del extrusor, que al enfriarse no deja pasar al filamento.
 
 1. Calentamos por encima de la temperatura normal del filamento (pero sin excedernos del límite del extrusor)
 1. Liberamos el filamento
@@ -141,6 +142,16 @@ Si todo va bien, la pieza se irá formando
 [Vídeo: Limpiando un atasco en el extrusor](https://youtu.be/T14vIGLGUKA)
 
 
+## Cómo transportar la impresora
+
+Para transportar la impresora,  lo mejor es cogerla por la parte superior del marco que es dónde estructuralmente tiene más fuerza. De esa manera no vamos a estropear el calibrado.
+
+Si hacemos un transporte en el que lleva bastante tiempo en coche hola estamos moviendo por un sitio que hay muchos botes muchos baches y que convendría hacerle una recalibración.
+
+## Símbolo raros en la pantalla 
+
+Enn las versiones más antiguas ocurría que la pantalla de la impresora pierde los caracteres y se llena de símbolos extraños. Lo que tenemos que hacer es pulsamos el botoncito y se repinta.
+
 ### Adherencia a la placa
 
 Podemos añadir laca al cristal de la impresora para mejorar la adherencia, no es necesario encharcarlo, basta con una cafa fina.
@@ -150,3 +161,5 @@ A medida que la vayamos usando esa capa habrá que limpiarla pues puede llegar a
 [![Vídeo: Mejorando la adherencia de la base de cristal usando laca](https://img.youtube.com/vi/6aUJHRHIriw/0.jpg)](https://youtu.be/6aUJHRHIriw)
 
 [Vídeo: Mejorando la adherencia de la base de cristal usando laca](https://youtu.be/6aUJHRHIriw)
+
+
